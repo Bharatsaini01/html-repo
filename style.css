@@ -1,0 +1,35 @@
+
+td,th{
+    border: 1px black solid; 
+    padding: 5px; 
+}
+.heading1{
+    /* margin-left: 55px;  */
+    color: blueviolet; 
+    font-size: 20px; 
+}
+
+#table1{
+    width: 100%; 
+    text-align: center; 
+    /* margin-left: 55px;  */
+    border: 1px black solid; 
+    border-collapse: collapse;
+}
+.tableheading{
+    background-color: aqua;
+}
+.name{
+    text-align: left;
+}
+#division{
+    margin: 60px;
+}
+#paragraph1{
+    float:left;
+    padding-right: 100px;
+}
+#paragraph2{
+    /* float: right; */
+    padding-top: 13px;
+}
