@@ -1,0 +1,114 @@
+
+.sectionc1 h1{
+    margin: 20px 50px;
+    font-family: 'Roboto';
+    font-size: 36px;
+    color: #000000;
+}
+.details{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input,textarea{
+    padding: 0px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+textarea{
+    padding: 10px 10px;
+}
+.sectionc1 p{
+    color: #222222;
+    margin: 20px 50px;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+#formpage,td{
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: #000000;
+    margin-left: 50px;
+}
+
+#formpage td{
+    padding: 5px 10px;
+    width: 400px;
+    padding: 15px 0px;
+}
+
+#row2 td,#row3 td{
+    font-size: 16px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+#row3 input,#lastname{
+    width: 90%;
+}
+#lname,#lastname{
+    float: right;
+}
+.sectionc1 input{
+    width: 100%;
+    border: 1px solid #0000006c ;
+    border-radius: 10px;
+    height: 40px;
+}
+#nlrow input{
+    height: 246px;
+    /* border: none; */
+}
+
+
+#lrow button{
+    width: fit-content;
+    margin-left: 35%;
+    font-weight: 500;
+    padding: 18px 36px;
+    height: fit-content;
+}
+#lrow button:hover{
+    background-color: #1371FF;
+    border-color: #0066ff93;
+    color: #fff;
+}
+#divc2{
+    /* width: 60%; */
+    float: left;
+}
+
+#divc5{
+    margin: 70px 0px;
+    
+}
+
+.divc3 {
+    padding:5px 0px 5px 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.divc3 h1,.divc3 p,.divc3 img{
+    margin: 5px 10px;
+    font-size: 24px;
+}
+
+#divc4 h1{
+    text-transform: lowercase;
+}
+
+#divc6 p{
+    font-size: 18px;
+    color: #000000;
+    margin-right:0px ;
+}
+
+#divc7 img{
+    width: 402px;
+    height: 570px;
+}
+footer{
+    margin-top: 16%;
+}

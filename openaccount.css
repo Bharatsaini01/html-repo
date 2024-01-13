@@ -1,0 +1,76 @@
+.sectiond1,.sectiond2{
+    margin: 80px 100px;
+    font-family: 'Roboto';
+}
+
+.sectiond1 h1{
+    font-size: 36px;
+    color: #000000;
+}
+
+.sectiond1 p{
+    font-size: 20px;
+    color: #222222;
+    margin: 50px 250px 50px 0px;
+}
+
+.sectiond2 input{
+    margin:20px 10px 20px 0px;
+    padding: 0px 10px;
+    font-size: 18px;
+    height: 38px;
+    color: #000000;
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+textarea{
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+label{
+    font-size: 24px;
+}
+
+#div1,#div2{
+    width: 47%;
+}
+#div4{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.sectiond2 label{
+    font-weight: bold;
+}
+#div4 div label{
+    font-weight: normal;
+    font-size: 16px;
+}
+.sectiond2 h1{
+    margin: 30px 0px;
+}
+.sectiond2 #comments{
+    height: 200px;
+}
+#div3{
+    position: relative;
+}
+#div3 button{
+    width: fit-content;
+    position: absolute;
+    left: 45%;
+    right: 45%;
+    border: 1px solid #00000041;
+    font-size: 16px;
+    padding: 20px 40px;
+    height: fit-content;
+}
+
+#div3 button:hover{
+    color: #FFFFFF;
+    background-color: #1371FF;
+}

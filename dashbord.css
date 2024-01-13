@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto';
+}
+
+.sectione1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px;
+}
+
+.sectione2 {
+    margin: 10px 100px;
+    background-color: #1371FF;
+    color: #FFFFFF;
+    padding: 30px;
+    border: 1px solid #0000003b;
+    border-radius: 10px;
+}
+
+.sectione2 h1, .sectione2 p {
+    font-size: 32px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.sectione2 #para1{
+    padding: 5px;
+    font-size: 20px;
+}
+.sectione2 #para2{
+    font-size: 14px;
+}
+
+.sectione3{
+    margin: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectione3 div{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 1px 1px 5px #0000003b;
+    color: #4DB353;
+    width: 28%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sectione3 div h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.sectione3 div:hover{
+    background-color: #4DB353;
+    color: #fff;
+}
+
+.sectione4{
+    margin-top: 50px;
+    height: fit-content;
+    box-shadow: 0px 0px 2px 0px #3333335d;
+}
+.sectione4 h1{
+    font-size: 24px;
+    padding: 20px;
+}
+
+
+.sectione4 table,th,td{
+    border: 1px solid #555151;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.sectione4 table{
+    width: 100%;
+    background-color: #F9F8F8;
+}
+.sectione4 th,td{
+    text-align: center;
+    font-size: 18px;
+}
+.sectione4 th{
+    color: #1371FF;
+    font-size: 20px;
+}
+
+.sectione4 span{
+    color: #1371FF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.paymethod{
+    color: #2AB437;
+    cursor: pointer;
+}
+
+.paymethod:hover{
+    font-weight: bold;
+}
